@@ -1,10 +1,10 @@
 import streamlit as st
 from openai import OpenAI
 
-# Create client using your secret key
+# Create client using secret key
 client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
-st.title("😈PitchWhiz - Your Silly Startup Pitch Generator")
+st.title("😈PitchWhiz - Your too-creative Startup Pitch Generator")
 st.caption("Powered by ChatGPT and too much coffee")
 
 idea = st.text_input("What's your startup idea?", "AI-powered bubble tea robot")
