@@ -16,7 +16,8 @@ if st.button("Generate Pitch"):
             {"role": "user", "content": f"""Write a short, non-sense, comedic startup pitch (around 100-150 words) for this idea: "{idea}" 
                                             as a tech CEO selling their idea to investors.
                                             Include at least 3 startup buzzwords (like synergy, AI, blockchain, disruption, etc.) and at least 1 bad joke.
-                                            Keep it clear, structured, and readable. Please respond in the same language the user used for the idea above."""}
+                                            Keep it clear, structured, and readable. 
+                                            Please respond in the same language the user used for the idea above."""}
 
         ],
         temperature=0.9,
